@@ -9,9 +9,9 @@ class Dec2Hex
 
     public static void main(String[] args) {
         if (args[0] == null) {
-           System.out.println("Input not provided as argument")
+           System.out.println("Input not provided as argument");
         } else {
-           DecConvert(args[0])
+           DecConvert(args[0]);
         }
     }
 
