@@ -1,8 +1,6 @@
 class Dec2Hex
 {
 
-    public static int Arg1;
-
     public static void main(String[] args) {
         if (args.length > 0) {
         DecConvert(args[0]);
@@ -19,7 +17,8 @@ class Dec2Hex
         }
         int arg1 = Integer.parseInt(dec);
         char[] ch={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
-        int rem, num;
+        int rem;
+        int num;
         num = arg1;
         String hexadecimal="";
         System.out.println("Converting the Decimal Value " + num + " to Hex...");
@@ -39,7 +38,7 @@ class Dec2Hex
     }
     public static boolean isNumber(String str) {
        try {
-           int in = Integer.parseInt(str);
+           Integer.parseInt(str);
        } catch (NumberFormatException nfe) {
         return false;
        }
