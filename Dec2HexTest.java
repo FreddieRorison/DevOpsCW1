@@ -22,4 +22,12 @@ public class Dec2HexTest {
    public void testExtremeLow() {
       dec2hex.DecConvert("0");
    }
+   @Test
+   public void testExtremeHigh() {
+      dec2hex.DecConvert("15");
+   }
+   @Test
+   public void testExceptional() {
+      dec2hex.DecConvert("Hello!");
+   }
 }
