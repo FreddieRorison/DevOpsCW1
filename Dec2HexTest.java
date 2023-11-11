@@ -10,11 +10,11 @@ public class Dec2HexTest {
 
    @Test
    public void testNormal() {
-      dec2hex = new Dec2Hex(new String[]{"5"});
+      dec2hex = new Dec2Hex();
    }
 
    @Test
    public void testExtreme() {
-      dec2hex = new Dec2Hex(new String[]{"0"});
+      dec2hex = new Dec2Hex();
    }
 }
