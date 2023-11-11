@@ -38,7 +38,7 @@ class Dec2Hex
         System.out.println("Hexadecimal representation is: " + hexadecimal);
 
     }
-    public static void isNumber(String str) {
+    public static boolean isNumber(String str) {
        try {
            int in = Integer.parseInt(Dec);
        } catch (NumberFormatException nfe) {
