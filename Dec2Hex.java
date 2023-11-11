@@ -3,7 +3,7 @@ import java.util.logging.Logger;
 class Dec2Hex
 {
 
-    static Logger logger = new Logger("LogOne");
+    Private static final Logger logger = new Logger("LogOne");
 
     public static void main(String[] args) {
         if (args.length > 0) {
