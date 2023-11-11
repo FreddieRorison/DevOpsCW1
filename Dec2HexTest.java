@@ -15,11 +15,11 @@ public class Dec2HexTest {
 
    @Test
    public void testNormal() {
-      dec2hex.DecConvert("5")
+      dec2hex.DecConvert("5");
    }
 
    @Test
    public void testExtremeLow() {
-      dec2hex.DecConvert("0")
+      dec2hex.DecConvert("0");
    }
 }
