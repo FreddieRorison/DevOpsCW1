@@ -1,7 +1,7 @@
 class Dec2Hex
 {
 
-    Logger logger = new Logger();
+    static Logger logger = new Logger();
 
     public static void main(String[] args) {
         if (args.length > 0) {
