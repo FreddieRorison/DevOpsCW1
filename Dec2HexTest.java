@@ -15,19 +15,19 @@ public class Dec2HexTest {
 
    @Test
    public void testNormal() {
-      dec2hex.DecConvert("5");
+      dec2hex.decConvert("5");
    }
 
    @Test
    public void testExtremeLow() {
-      dec2hex.DecConvert("0");
+      dec2hex.decConvert("0");
    }
    @Test
    public void testExtremeHigh() {
-      dec2hex.DecConvert("15");
+      dec2hex.decConvert("15");
    }
    @Test
    public void testExceptional() {
-      dec2hex.DecConvert("Hello!");
+      dec2hex.decConvert("Hello!");
    }
 }
