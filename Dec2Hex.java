@@ -15,7 +15,7 @@ class Dec2Hex
         }
     }
 
-    public void DecConvert(String Dec)
+    public static void DecConvert(String Dec)
     {
         int Arg1 = Integer.parseInt(Dec);
         char ch[]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
