@@ -1,15 +1,17 @@
 class Dec2Hex
 {
 
+    Logger logger = new Logger();
+
     public static void main(String[] args) {
         if (args.length > 0) {
-        DecConvert(args[0]);
+        decConvert(args[0]);
         } else {
-         System.out.println("No Input Provided");
+         logger.info("No Input Provided");
         }
     }
 
-    public static void DecConvert(String dec)
+    public static void decConvert(String dec)
     {
         if (!isNumber(dec)) {
            System.out.println("Input is not a number");
