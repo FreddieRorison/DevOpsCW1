@@ -11,7 +11,7 @@ class Dec2Hex
         if (args[0] != null) {
         DecConvert(args[0]);
         } else {
-         System.out.println("No Input Provided")
+         System.out.println("No Input Provided");
         }
     }
 
