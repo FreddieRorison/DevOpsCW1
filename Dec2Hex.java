@@ -8,7 +8,7 @@ class Dec2Hex
     public Dec2Hex() {}
 
     public static void main(String[] args) {
-        if (args[0] != null) {
+        if (args[0]) {
         DecConvert(args[0]);
         } else {
          System.out.println("No Input Provided");
@@ -17,8 +17,8 @@ class Dec2Hex
 
     public static void DecConvert(String Dec)
     {
-        if (Integer.parseInt(Dec) == false) {
-           System.our.println("Input is not a number");
+        if (!isNumber(Dec)) {
+           System.out.println("Input is not a number");
            return;
         }
         int Arg1 = Integer.parseInt(Dec);
@@ -38,4 +38,11 @@ class Dec2Hex
         System.out.println("Hexadecimal representation is: " + hexadecimal);
 
     }
+    public static void isNumber(String str) {
+       try {
+           int in = Integer.parseInt(Dec);
+       } catch (NumberFormatException nfe) {
+        return false;
+       }
+       return true;
 }
