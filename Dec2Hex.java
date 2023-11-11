@@ -40,7 +40,7 @@ class Dec2Hex
     }
     public static boolean isNumber(String str) {
        try {
-           int in = Integer.parseInt(Dec);
+           int in = Integer.parseInt(str);
        } catch (NumberFormatException nfe) {
         return false;
        }
