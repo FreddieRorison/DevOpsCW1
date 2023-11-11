@@ -2,14 +2,11 @@ import java.util.logging.Logger;
 
 class Dec2Hex
 {
-
-    static Logger logger = new Logger();
-
     public static void main(String[] args) {
         if (args.length > 0) {
         decConvert(args[0]);
         } else {
-         logger.info("No Input Provided");
+         System.out.println("No Input Provided");
         }
     }
 
