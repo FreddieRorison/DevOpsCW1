@@ -8,7 +8,7 @@ class Dec2Hex
     public Dec2Hex() {}
 
     public static void main(String[] args) {
-        if (args[0]) {
+        if (args[0] != void) {
         DecConvert(args[0]);
         } else {
          System.out.println("No Input Provided");
