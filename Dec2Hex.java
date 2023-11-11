@@ -45,4 +45,5 @@ class Dec2Hex
         return false;
        }
        return true;
+    }
 }
