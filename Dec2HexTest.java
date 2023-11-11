@@ -8,13 +8,18 @@ public class Dec2HexTest {
 
    Dec2Hex dec2hex;
 
-   @Test
-   public void testNormal() {
+   @Before
+   public void SetUp() {
       dec2hex = new Dec2Hex();
    }
 
    @Test
-   public void testExtreme() {
-      dec2hex = new Dec2Hex();
+   public void testNormal() {
+      dec2hex.DecConvert("5")
+   }
+
+   @Test
+   public void testExtremeLow() {
+      dec2hex.DecConvert("0")
    }
 }
