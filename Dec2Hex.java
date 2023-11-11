@@ -8,15 +8,16 @@ class Dec2Hex
     public Dec2Hex() {}
 
     public static void main(String[] args) {
+        if (args[0] != null) {
         DecConvert(args[0]);
+        } else {
+         System.out.println("No Input Provided")
+        }
     }
 
     public static void DecConvert(String Dec)
     {
-        if (dec == null) {
-           System.out.println("Input not provided as argument");
-           return;
-        } else if (Integer.parseInt(Dec) == false) {
+        if (Integer.parseInt(Dec) == false) {
            System.our.println("Input is not a number");
            return;
         }
