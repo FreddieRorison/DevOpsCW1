@@ -3,13 +3,10 @@ import java.util.logging.Logger;
 class Dec2Hex
 {
 
-    private static final Logger logger = new Logger("LogOne");
-
     public static void main(String[] args) {
         if (args.length > 0) {
         decConvert(args[0]);
-        } else {
-	 logger.info("No Input Provided");
+        } else  {
          System.out.println("No Input Provided");
         }
     }
