@@ -5,7 +5,7 @@ class Dec2Hex
 
     public static void main(String[] args) {
         if (args.length > 0) {
-        decConvert(args[0]);
+        decConvert(args[0]);  // Calls Function
         } else  {
          System.out.println("No Input Provided");
         }
